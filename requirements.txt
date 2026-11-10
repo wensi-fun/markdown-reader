@@ -1,0 +1,11 @@
+# Markdown Reader runtime dependencies
+# Install: pip install -r requirements.txt
+
+# Qt6 runtime: Essentials covers QtCore/QtGui/QtWidgets/QtPrintSupport used by this app
+# (the import name is still `PySide6`; full Addons/WebEngine are not needed)
+PySide6-Essentials>=6.6,<7.0
+Markdown>=3.4
+python-docx>=1.0
+
+# Needed only when building the standalone exe (install on the build machine)
+# pyinstaller>=6.0
